@@ -18,15 +18,18 @@ public class GameData implements Serializable {
     }
 
     public void addMode(Mode newMode) {
-        modes.add(newMode);
+        getModes().add(newMode);
     }
 
     public void removeMode(Mode mode) {
-        if(modes.contains(mode))
-            modes.remove(modes.indexOf(mode));
+        if(getModes().contains(mode))
+            getModes().remove(getModes().indexOf(mode));
     }
     public ArrayList<Mode> getModes() {
         return modes;
     }
 
+    public void setModes(ArrayList<Mode> modes) {
+        this.modes = modes;
+    }
 }

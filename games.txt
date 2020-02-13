@@ -1,0 +1,6 @@
+Xonotic;vehicle.tdm.ctf.dm:instagib.tdm.ctf.dm:normal.tdm.ctf.dm
+Warframe;Survival.Corpus.Grineer.Void.Infested:Defence.Corpus.Grineer.Void.Infested:Arbitrations.N/A.N/A
+Modern Warfare 3;Survival.Resistance.Village.Interchange.Underground.Dome.Mission.Seatown.Carbon.Bootleg.Hardhat.Fallen.Outpost.Lockdown.Arkaden.Downturn.Bakaara:Co-op.Stay Sharp.Milehigh Jack.Over Reactor.Hit and Run.Toxic Paradise.Firewall.Fatal Extraction.Hostage Taker.Charges Set.Resistance Movement.Little Bros.Invisible Threat. Server Crash.Smack Town.Flood the Market.Fire Mission
+The Settlers 2;Economic Domination.n/a:Military Domination.n/a:Territorial Domination.n/a
+Apex Legends;N/A.N/A
+World at War;Zombies.Nacht der Untoten.Verruckt.Shi No Numa.Der Riese.Modded
