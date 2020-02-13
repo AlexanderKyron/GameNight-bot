@@ -13,6 +13,8 @@ import java.util.ArrayList;
 public class Bot {
     //Main instance for backend use such as token retrieval
     Main main = Main.getInstance();
+    //FileManager for loading and saving games and roles
+    FileManager fm = FileManager.getInstance();
     //Instance of bot for singleton purposes. There really should only be one bot running.
     static Bot instance;
     //List of games stored in bot
@@ -44,7 +46,15 @@ public class Bot {
      */
     public void login() {
         //This is a test role, added so that the roles functionality can be used without a role.
-        roles.add(new RoleData("Xonotic","676591549253156885"));
+        //roles.add(new RoleData("Xonotic","676591549253156885"));
+        ArrayList<RoleData> rolesTemp = fm.loadRolesFromFile();
+        if(rolesTemp != null) {
+            roles = rolesTemp;
+        }
+        ArrayList<GameData> gamesTemp = fm.loadGamesFromFile();
+        if(gamesTemp != null) {
+            games = gamesTemp;
+        }
         //Gets the token from the main class.
         String token = main.getToken();
         //Login to the bot.
