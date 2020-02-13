@@ -13,8 +13,9 @@ public class CmdListGames implements MessageCreateListener {
     public void onMessageCreate(MessageCreateEvent event) {
         System.out.println("Command issued");
         DiscordApi api = event.getApi();
+        //?games command - lists the games stored
         if(event.getMessage().getContent().equalsIgnoreCase("?games")) {
-            System.out.println("?games command running");
+          System.out.println("?games command running");
             String gameList = "";
             for(GameData i: Bot.getInstance().getGames()) {
                 gameList += i.getTitle();
