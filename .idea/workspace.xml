@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe94f99c-b71c-471a-a359-6169cc4854fb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Xk0foiMMeD3DJqWH4RJhiI3ztw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main" />
+      <recent name="$PROJECT_DIR$/src/main/java/core" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.Main" />
+      <module name="GameNight-Bot-Java.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameNight-Bot-Java" type="GradleRunConfiguration" factoryName="Gradle" nameIsGenerated="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.GameNight-Bot-Java" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe94f99c-b71c-471a-a359-6169cc4854fb" name="Default Changelist" comment="" />
+      <created>1581574890782</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581574890782</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2616" y="240" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581576171777">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2616" y="240" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581576171777" />
+    <state x="2692" y="266" key="#com.intellij.ide.util.MemberChooser" timestamp="1581577469470">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2692" y="266" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581577469470" />
+    <state x="2616" y="340" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1581575661738">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2616" y="340" key="#com.intellij.ide.util.TreeClassChooserDialog/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581575661738" />
+    <state x="2562" y="193" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1581578885351">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2562" y="193" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581578885351" />
+    <state x="3087" y="24" width="478" height="1056" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1581579460593">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="3087" y="24" width="478" height="1056" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581579460593" />
+    <state x="2667" y="343" key="#com.intellij.uiDesigner.palette.ComponentItemDialog" timestamp="1581575662560">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2772" y="443" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff" timestamp="1581575651211">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2772" y="443" key="#com.intellij.uiDesigner.palette.ComponentItemDialog.OneOff/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581575651211" />
+    <state x="2667" y="343" key="#com.intellij.uiDesigner.palette.ComponentItemDialog/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581575662560" />
+    <state x="2666" y="312" key="FileChooserDialogImpl" timestamp="1581576118420">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2666" y="312" key="FileChooserDialogImpl/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581576118420" />
+    <state x="2746" y="467" key="Github.CreateGistDialog" timestamp="1581580163933">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2746" y="467" key="Github.CreateGistDialog/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581580163933" />
+    <state width="1874" height="289" key="GridCell.Tab.0.bottom" timestamp="1581580472859">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="289" key="GridCell.Tab.0.bottom/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581580472859" />
+    <state width="1874" height="289" key="GridCell.Tab.0.center" timestamp="1581580472858">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="289" key="GridCell.Tab.0.center/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581580472858" />
+    <state width="1874" height="289" key="GridCell.Tab.0.left" timestamp="1581580472858">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="289" key="GridCell.Tab.0.left/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581580472858" />
+    <state width="1874" height="289" key="GridCell.Tab.0.right" timestamp="1581580472859">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="289" key="GridCell.Tab.0.right/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581580472859" />
+    <state x="2539" y="183" key="SettingsEditor" timestamp="1581574933978">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2539" y="183" key="SettingsEditor/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581574933978" />
+    <state x="2487" y="328" key="com.intellij.ide.util.TipDialog" timestamp="1581574898006">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2487" y="328" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581574898006" />
+    <state x="2543" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1581579790002">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2543" y="255" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581579790002" />
+  </component>
+</project>
