@@ -2,8 +2,7 @@
 ***
 *Notice: this bot is specially designed for a private discord. As time goes on it will be made more modular and robust, but this repo in its current state is effectively an internal tool, which is unpolished and rough due to its original purpose as a single-purpose internal-use program, only available for use by specific users who know the quirks.*
 ***
-***
-*Other Notice: The bot is undergoing a full re-write right now in order to facilitate the new modularity and robustness required by an open-sourced version, as well as new features. As a result, the version on github right now is incredibly feature-incomplete and lacking core functionality (as was the old one). Do not expect a complete and functional bot from using this. 
+*Other Notice: The bot is undergoing a full re-write right now in order to facilitate the new modularity and robustness required by an open-sourced version, as well as new features. As a result, the version on github right now is incredibly feature-incomplete and lacking core functionality (as was the old one). Do not expect a complete and functional bot from using this. *
 ***
 ## Purpose
 GameNight is a Discord bot intended to run a fixed scheduled game-night event. It alerts every Friday at 10:30 in a specialized channel (this will be adjusted using a GUI in a later version) and pings the "gamers" role, which is self-assignable with `?role give Gamers`. It can be used to self-assign roles for certain games, as flexible events set within the server for specialized games are planned.
