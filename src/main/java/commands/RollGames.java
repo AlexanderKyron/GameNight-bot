@@ -18,15 +18,15 @@ public class RollGames implements MessageCreateListener {
             System.out.println("?roles command running");
             //Pick a random game from the bot and retrieve the tite
             Random r = new Random();
-            int randInt = r.nextInt(Bot.getInstance().getGames().size() - 1);
+            int randInt = r.nextInt(Bot.getInstance().getGames().size());
             GameData game = Bot.getInstance().getGames().get(r);
             String gameTitle = game.getTitle();
             //Pick a random mode from that game and retrieve the name
-            randInt = r.nextInt(game.getModes().size() - 1);
+            randInt = r.nextInt(game.getModes().size());
             Mode mode = game.getModes().get(randInt);
             String modeName = mode.getTitle();
             //Pick a random map string from that mode
-            randInt = r.nextInt(mode.getMaps().size - 1);
+            randInt = r.nextInt(mode.getMaps().size);
             String map = mode.getMaps().get(r);
             //Create a rich embed message including all relevant information and send it to the appropriate channel
             EmbedBuilder embed = new EmbedBuilder()
@@ -47,11 +47,11 @@ public class RollGames implements MessageCreateListener {
             if(game != null) {
             String gameTitle = game.getTitle();
             //Pick a random mode from that game and retrieve the name
-            randInt = r.nextInt(game.getModes().size() - 1);
+            randInt = r.nextInt(game.getModes().size());
             Mode mode = game.getModes().get(randInt);
             String modeName = mode.getTitle();
             //Pick a random map string from that mode
-            randInt = r.nextInt(mode.getMaps().size - 1);
+            randInt = r.nextInt(mode.getMaps().size);
             String map = mode.getMaps().get(r);
             //Create a rich embed message including all relevant information and send it to the appropriate channel
             EmbedBuilder embed = new EmbedBuilder()
