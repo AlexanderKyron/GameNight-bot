@@ -2,6 +2,7 @@ package core;
 
 import commands.CmdListGames;
 import commands.RolesCommands;
+import commands.RollGames;
 import data.GameData;
 import data.RoleData;
 import org.javacord.api.DiscordApiBuilder;

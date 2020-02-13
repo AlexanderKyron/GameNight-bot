@@ -27,4 +27,4 @@ public class CmdListGames implements MessageCreateListener {
             event.getChannel().sendMessage(embed);
         }
     }
-}``
+}
