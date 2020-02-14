@@ -48,7 +48,7 @@ public class RollGames implements MessageCreateListener {
             }
         }
         //roll command with game args - picks a random map and mode from a game, specified by title
-        else if(event.getMessage().getContent().startsWith("?roll game:")) {
+        else if(event.getMessage().getContent().startsWith("?roll game:") || event.getMessage().getContent().startsWith("?roll -p game:")) {
             String[] commandParts = event.getMessage().getContent().split(":");
             String desiredGameName = commandParts[1];
             Random r = new Random();
@@ -70,6 +70,9 @@ public class RollGames implements MessageCreateListener {
                     .addField("Game:", gameTitle)
                     .addField("Mode: ", modeName)
                     .addField("Map: ", map);
+            if(event.getMessage().getContent().contains("-p")) {
+                embed.addField("Pings: ", "<@&" + Bot.getInstance().searchRoles(gameTitle).getId() +">");
+            }
             event.getChannel().sendMessage(embed);
             } else {
               EmbedBuilder embed = new EmbedBuilder()

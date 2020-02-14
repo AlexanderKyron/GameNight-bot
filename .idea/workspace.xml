@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe94f99c-b71c-471a-a359-6169cc4854fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/commands/HelpCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
@@ -10,15 +11,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/core/Bot.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/core/Bot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/data/GameData.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/data/GameData.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/games.txt" beforeDir="false" afterPath="$PROJECT_DIR$/games.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/roles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/roles.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commands/RollGames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/RollGames.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/core/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/Bot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/core/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/FileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/GameData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/GameData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,22 +154,22 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2746" y="467" key="Github.CreateGistDialog/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581580163933" />
-    <state width="937" height="289" key="GridCell.Tab.0.bottom" timestamp="1581635388811">
+    <state width="672" height="289" key="GridCell.Tab.0.bottom" timestamp="1581647150041">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="937" height="289" key="GridCell.Tab.0.bottom/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581635388811" />
-    <state width="937" height="289" key="GridCell.Tab.0.center" timestamp="1581635388811">
+    <state width="672" height="289" key="GridCell.Tab.0.bottom/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581647150041" />
+    <state width="672" height="289" key="GridCell.Tab.0.center" timestamp="1581647150041">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="937" height="289" key="GridCell.Tab.0.center/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581635388811" />
-    <state width="937" height="289" key="GridCell.Tab.0.left" timestamp="1581635388810">
+    <state width="672" height="289" key="GridCell.Tab.0.center/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581647150041" />
+    <state width="672" height="289" key="GridCell.Tab.0.left" timestamp="1581647150041">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="937" height="289" key="GridCell.Tab.0.left/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581635388810" />
-    <state width="937" height="289" key="GridCell.Tab.0.right" timestamp="1581635388811">
+    <state width="672" height="289" key="GridCell.Tab.0.left/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581647150041" />
+    <state width="672" height="289" key="GridCell.Tab.0.right" timestamp="1581647150041">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="937" height="289" key="GridCell.Tab.0.right/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581635388811" />
+    <state width="672" height="289" key="GridCell.Tab.0.right/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581647150041" />
     <state x="2539" y="183" key="SettingsEditor" timestamp="1581574933978">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

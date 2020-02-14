@@ -1,6 +1,7 @@
 package core;
 
 import commands.CmdListGames;
+import commands.HelpCommand;
 import commands.RolesCommands;
 import commands.RollGames;
 import data.GameData;
@@ -61,6 +62,7 @@ public class Bot {
         new DiscordApiBuilder().setToken(token).login().thenAccept(api -> {
             //Add message listeners for the commands
             api.addMessageCreateListener(new CmdListGames());
+            api.addMessageCreateListener(new HelpCommand());
             api.addMessageCreateListener(new RolesCommands());
             api.addMessageCreateListener(new RollGames());
         }).exceptionally(ExceptionLogger.get());
