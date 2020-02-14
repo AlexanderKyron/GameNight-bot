@@ -31,7 +31,7 @@ public class FileManager {
             while(fileScanner.hasNextLine()) {
                 String line = fileScanner.nextLine();
                 String[] data = line.split(":");
-                /System.out.println(line);
+                System.out.println(line);
                 RoleData r = new RoleData(data[0],data[1]);
                 list.add(r);
             }
