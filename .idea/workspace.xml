@@ -1,23 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="GameNight-Bot-Java:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="fe94f99c-b71c-471a-a359-6169cc4854fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/GameNight_Bot_Java_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GraphicalFrontend.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commands/CmdListGames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/CmdListGames.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commands/HelpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/HelpCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commands/RolesCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/RolesCommands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commands/RollGames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commands/RollGames.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/Bot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/FileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/core/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/GameData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/GameData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/data/Mode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data/Mode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/GraphicalFrontend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/commands/CmdListGames.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/commands/CmdListGames.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/core/Bot.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/core/Bot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/core/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/core/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/data/GameData.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/data/GameData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/data/Mode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/data/Mode.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +66,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="external.system.task.project.file.to.start" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/GameNight_Bot_Java_main_jar" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/src/main/java/core" />
@@ -127,10 +137,11 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2692" y="266" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581577469470" />
-    <state x="2616" y="340" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1581575661738">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state x="4362" y="566" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1581649022640">
+      <screen x="3840" y="283" width="1440" height="900" />
     </state>
-    <state x="2616" y="340" key="#com.intellij.ide.util.TreeClassChooserDialog/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581575661738" />
+    <state x="2616" y="340" key="#com.intellij.ide.util.TreeClassChooserDialog/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581648455190" />
+    <state x="4362" y="566" key="#com.intellij.ide.util.TreeClassChooserDialog/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@3840.283.1440.900" timestamp="1581649022640" />
     <state x="2562" y="193" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1581632672272">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -155,26 +166,27 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2746" y="467" key="Github.CreateGistDialog/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581580163933" />
-    <state width="937" height="289" key="GridCell.Tab.0.bottom" timestamp="1581648059832">
+    <state width="672" height="289" key="GridCell.Tab.0.bottom" timestamp="1581648306987">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="937" height="289" key="GridCell.Tab.0.bottom/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581648059832" />
-    <state width="937" height="289" key="GridCell.Tab.0.center" timestamp="1581648059832">
+    <state width="672" height="289" key="GridCell.Tab.0.bottom/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581648306987" />
+    <state width="672" height="289" key="GridCell.Tab.0.center" timestamp="1581648306987">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="937" height="289" key="GridCell.Tab.0.center/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581648059832" />
-    <state width="937" height="289" key="GridCell.Tab.0.left" timestamp="1581648059832">
+    <state width="672" height="289" key="GridCell.Tab.0.center/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581648306987" />
+    <state width="672" height="289" key="GridCell.Tab.0.left" timestamp="1581648306986">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="937" height="289" key="GridCell.Tab.0.left/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581648059832" />
-    <state width="937" height="289" key="GridCell.Tab.0.right" timestamp="1581648059832">
+    <state width="672" height="289" key="GridCell.Tab.0.left/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581648306986" />
+    <state width="672" height="289" key="GridCell.Tab.0.right" timestamp="1581648306987">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="937" height="289" key="GridCell.Tab.0.right/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581648059832" />
-    <state x="2539" y="183" key="SettingsEditor" timestamp="1581574933978">
-      <screen x="1920" y="0" width="1920" height="1080" />
+    <state width="672" height="289" key="GridCell.Tab.0.right/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581648306987" />
+    <state x="4224" y="343" key="SettingsEditor" timestamp="1581649040400">
+      <screen x="3840" y="283" width="1440" height="900" />
     </state>
-    <state x="2539" y="183" key="SettingsEditor/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581574933978" />
+    <state x="2364" y="164" key="SettingsEditor/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@1920.0.1920.1080" timestamp="1581648469474" />
+    <state x="4224" y="343" key="SettingsEditor/1920.0.1920.1080/3840.283.1440.900/0.193.1920.1080@3840.283.1440.900" timestamp="1581649040400" />
     <state x="1991" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1581631273152">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
