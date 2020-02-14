@@ -3,7 +3,7 @@ package data;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-public class GameData implements Serializable {
+public class GameData {
 
     private String title = "";
 
@@ -22,9 +22,10 @@ public class GameData implements Serializable {
     }
 
     public void removeMode(Mode mode) {
-        if(getModes().contains(mode))
-            getModes().remove(getModes().indexOf(mode));
+        if (getModes().contains(mode))
+            getModes().remove(mode);
     }
+
     public ArrayList<Mode> getModes() {
         return modes;
     }

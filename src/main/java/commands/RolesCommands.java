@@ -13,11 +13,11 @@ public class RolesCommands implements MessageCreateListener {
         System.out.println("Command issued");
         DiscordApi api = event.getApi();
         //?roles command - list out the available roles
-        if(event.getMessage().getContent().equalsIgnoreCase("?roles")) {
+        if (event.getMessage().getContent().equalsIgnoreCase("?roles")) {
             System.out.println("?roles command running");
             //Get the roles and build a string out of them
             String roleList = "";
-            for(RoleData roleName : Bot.getInstance().getRoles()) {
+            for (RoleData roleName : Bot.getInstance().getRoles()) {
                 roleList += roleName.getName();
                 roleList += "\n";
             }
@@ -28,7 +28,7 @@ public class RolesCommands implements MessageCreateListener {
             event.getChannel().sendMessage(embed);
         }
         //?roles give: - gives a specified role by name
-        else if(event.getMessage().getContent().startsWith("?roles give:")) {
+        else if (event.getMessage().getContent().startsWith("?roles give:")) {
             //split the command before and after the regex (":") to identify passed arguments
             String[] commandParts = event.getMessage().getContent().split(":");
             //Take the passed arg
@@ -55,7 +55,7 @@ public class RolesCommands implements MessageCreateListener {
 
         }
         //?roles remove: - removes a specified role by name
-        else if(event.getMessage().getContent().startsWith("?roles remove:")) {
+        else if (event.getMessage().getContent().startsWith("?roles remove:")) {
             //Get the arg for the command by splitting by ":" and storing
             String[] commandParts = event.getMessage().getContent().split(":");
             String unDesiredRoleName = commandParts[1];

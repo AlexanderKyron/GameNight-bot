@@ -22,7 +22,7 @@ public class Bot {
     private ArrayList<GameData> games = new ArrayList<GameData>();
     //List of roles stored in bot
     private ArrayList<RoleData> roles = new ArrayList<RoleData>();
-    
+
     /**
      * getInstance
      * Returns instance of singleton bot
@@ -41,19 +41,19 @@ public class Bot {
     /**
      * login()
      * Initializes the bot and sets up listeners.
+     *
      * @author Alexander Kyron
      * 13/02/2020
-     *
      */
     public void login() {
         //This is a test role, added so that the roles functionality can be used without a role.
         //roles.add(new RoleData("Xonotic","676591549253156885"));
         ArrayList<RoleData> rolesTemp = fm.loadRolesFromFile();
-        if(rolesTemp != null) {
+        if (rolesTemp != null) {
             roles = rolesTemp;
         }
         ArrayList<GameData> gamesTemp = fm.loadGamesFromFile();
-        if(gamesTemp != null) {
+        if (gamesTemp != null) {
             games = gamesTemp;
         }
         //Gets the token from the main class.
@@ -71,10 +71,10 @@ public class Bot {
     /**
      * getGames()
      * games list getter
-     * @author Alexander Kyron
+     *
      * @return games
      * 13/02/2020
-     *
+     * @author Alexander Kyron
      */
     public ArrayList<GameData> getGames() {
         return games;
@@ -83,10 +83,9 @@ public class Bot {
     /**
      * setGames()
      * games list setter
-     * @author Alexander Kyron
-     * @param games
-     * 13/02/2020
      *
+     * @param games 13/02/2020
+     * @author Alexander Kyron
      */
     public void setGames(ArrayList<GameData> games) {
         this.games = games;
@@ -95,10 +94,10 @@ public class Bot {
     /**
      * getRoles()
      * Roles list getter
-     * @author Alexander Kyron
+     *
      * @return roles
      * 13/02/2020
-     *
+     * @author Alexander Kyron
      */
     public ArrayList<RoleData> getRoles() {
         return roles;
@@ -108,10 +107,9 @@ public class Bot {
     /**
      * setRomes()
      * roles list setter
-     * @author Alexander Kyron
-     * @param roles
-     * 13/02/2020
      *
+     * @param roles 13/02/2020
+     * @author Alexander Kyron
      */
     public void setRoles(ArrayList<RoleData> roles) {
         this.roles = roles;
@@ -119,7 +117,7 @@ public class Bot {
 
     /**
      * searchRoles(String name)
-     *
+     * <p>
      * Searches for the appropriate role by name an returns it - otherwise,
      * returns null.
      *
@@ -130,18 +128,18 @@ public class Bot {
      */
     public RoleData searchRoles(String name) {
         //Iterate roles and return if true.
-        for(RoleData r:roles) {
-            if(r.getName().equalsIgnoreCase(name)) {
+        for (RoleData r : roles) {
+            if (r.getName().equalsIgnoreCase(name)) {
                 return r;
             }
         }
         //return null if not found
         return null;
     }
-    
-     /**
+
+    /**
      * searchGames(String name)
-     *
+     * <p>
      * Searches for the appropriate game by name an returns it - otherwise,
      * returns null.
      *
@@ -151,14 +149,14 @@ public class Bot {
      * 13/02/2020
      */
     public GameData searchGames(String name) {
-      //iterate games, return if found
-      for(GameData g:games) {
-        if(g.getTitle().equalsIgnoreCase(name)) {
-          return g;
+        //iterate games, return if found
+        for (GameData g : games) {
+            if (g.getTitle().equalsIgnoreCase(name)) {
+                return g;
+            }
         }
-      }
-      //return null if not found
-      return null;
+        //return null if not found
+        return null;
     }
-    
+
 }

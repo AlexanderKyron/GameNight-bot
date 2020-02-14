@@ -11,8 +11,9 @@ import java.util.Scanner;
 
 public class FileManager {
     static FileManager instance;
+
     public static FileManager getInstance() {
-        if(instance == null)
+        if (instance == null)
             instance = new FileManager();
         return instance;
     }
@@ -20,19 +21,19 @@ public class FileManager {
     /**
      * loadRolesFromFile()
      * Loads in the roles from a file formatted as name:id with one role per line.
+     *
+     * @return 13/02/2020
      * @author Alexander Kyron
-     * @return
-     * 13/02/2020
      */
     public ArrayList<RoleData> loadRolesFromFile() {
         try {
             Scanner fileScanner = new Scanner(new File("roles.txt"));
             ArrayList<RoleData> list = new ArrayList<RoleData>();
-            while(fileScanner.hasNextLine()) {
+            while (fileScanner.hasNextLine()) {
                 String line = fileScanner.nextLine();
                 String[] data = line.split(":");
                 System.out.println(line);
-                RoleData r = new RoleData(data[0],data[1]);
+                RoleData r = new RoleData(data[0], data[1]);
                 list.add(r);
             }
             fileScanner.close();
@@ -48,29 +49,29 @@ public class FileManager {
      * Loads in the games from a file formatted as such:
      * Title;Mode.map:Mode.map
      * with unlimited repetitions of map within the scope of a mode, and unlimited modes
+     *
+     * @return 13/02/2020
      * @author Alexander Kyron
-     * @return
-     * 13/02/2020
      */
     public ArrayList<GameData> loadGamesFromFile() {
         try {
             Scanner fileScanner = new Scanner(new File("games.txt"));
             ArrayList<GameData> list = new ArrayList<GameData>();
-            while(fileScanner.hasNextLine()) {
+            while (fileScanner.hasNextLine()) {
                 String line = fileScanner.nextLine();
                 String[] data = line.split(";");
                 String gameTitle = data[0];
                 //System.out.println(gameTitle);
                 String[] gameInfo = data[1].split(":");
                 ArrayList<Mode> modes = new ArrayList<Mode>();
-                for(String info:gameInfo) {
+                for (String info : gameInfo) {
                     //System.out.println("Mode Information: " + info);
                     Mode m = new Mode();
                     String[] segments = info.split("\\.");
                     //System.out.println(segments.length);
-                    for(int i = 0; i < segments.length; i++) {
+                    for (int i = 0; i < segments.length; i++) {
                         System.out.println("Segmentinf: " + segments[i]);
-                        if(i == 0) {
+                        if (i == 0) {
                             m.setTitle(segments[i]);
                         } else {
                             m.getMaps().add(segments[i]);

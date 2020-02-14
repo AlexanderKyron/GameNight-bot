@@ -3,17 +3,18 @@ package core;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class Main {
     //Make sure that it is easy to get non-static values from singleton core.Main without constantly passing around an instance
     static Main instance;
+
     static Main getInstance() {
-        if(instance == null)
+        if (instance == null)
             instance = new Main();
         return instance;
     }
+
     Bot botBackend;
     //Discord API token
     private String token;
@@ -45,6 +46,7 @@ public class Main {
     /**
      * getToken()
      * Getter for the Token
+     *
      * @return token
      */
     public String getToken() {
@@ -54,6 +56,7 @@ public class Main {
     /**
      * setToken
      * Token setter
+     *
      * @param token
      */
     public void setToken(String token) {

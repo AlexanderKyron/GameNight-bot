@@ -2,7 +2,6 @@ package commands;
 
 import core.Bot;
 import data.GameData;
-
 import org.javacord.api.DiscordApi;
 import org.javacord.api.entity.message.embed.EmbedBuilder;
 import org.javacord.api.event.message.MessageCreateEvent;
@@ -14,10 +13,10 @@ public class CmdListGames implements MessageCreateListener {
         System.out.println("Command issued");
         DiscordApi api = event.getApi();
         //?games command - lists the games stored
-        if(event.getMessage().getContent().equalsIgnoreCase("?games")) {
-          System.out.println("?games command running");
+        if (event.getMessage().getContent().equalsIgnoreCase("?games")) {
+            System.out.println("?games command running");
             String gameList = "";
-            for(GameData i: Bot.getInstance().getGames()) {
+            for (GameData i : Bot.getInstance().getGames()) {
                 gameList += i.getTitle();
                 gameList += "\n";
             }

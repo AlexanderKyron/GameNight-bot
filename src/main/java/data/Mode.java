@@ -3,7 +3,7 @@ package data;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-public class Mode implements Serializable {
+public class Mode {
     private String title = "";
     private ArrayList<String> maps = new ArrayList<String>();
 
@@ -12,9 +12,10 @@ public class Mode implements Serializable {
     }
 
     public void removeMap(String mapName) {
-        if(maps.contains(mapName))
-            maps.remove(maps.indexOf(mapName));
+        if (maps.contains(mapName))
+            maps.remove(mapName);
     }
+
     public ArrayList<String> getMaps() {
         return maps;
     }
